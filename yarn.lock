@@ -1511,6 +1511,13 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
+"@babel/runtime@^7.19.4", "@babel/runtime@^7.22.5":
+  version "7.22.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.6.tgz#57d64b9ae3cff1d67eb067ae117dac087f5bd438"
+  integrity sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
 "@babel/template@^7.18.10", "@babel/template@^7.21.9":
   version "7.21.9"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.21.9.tgz#bf8dad2859130ae46088a99c1f265394877446fb"
@@ -7718,6 +7725,13 @@ cross-env@^7.0.3:
   dependencies:
     cross-spawn "^7.0.1"
 
+cross-fetch@3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.6.tgz#bae05aa31a4da760969756318feeee6e70f15d6c"
+  integrity sha512-riRvo06crlE8HiqOwIpQhxwdOk4fOeR7FVM/wXoxchFEqMNUjvbs3bfo4OTgMEMHzppd4DxFBDbyySj8Cv781g==
+  dependencies:
+    node-fetch "^2.6.11"
+
 cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
@@ -10035,6 +10049,13 @@ html-minifier-terser@^6.0.2:
     relateurl "^0.2.7"
     terser "^5.10.0"
 
+html-parse-stringify@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/html-parse-stringify/-/html-parse-stringify-3.0.1.tgz#dfc1017347ce9f77c8141a507f233040c59c55d2"
+  integrity sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==
+  dependencies:
+    void-elements "3.1.0"
+
 html-tags@^3.1.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.3.1.tgz#a04026a18c882e4bba8a01a3d39cfe465d40b5ce"
@@ -10151,6 +10172,27 @@ humanize-ms@^1.2.1:
   integrity sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==
   dependencies:
     ms "^2.0.0"
+
+i18next-browser-languagedetector@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-7.1.0.tgz#01876fac51f86b78975e79b48ccb62e2313a2d7d"
+  integrity sha512-cr2k7u1XJJ4HTOjM9GyOMtbOA47RtUoWRAtt52z43r3AoMs2StYKyjS3URPhzHaf+mn10hY9dZWamga5WPQjhA==
+  dependencies:
+    "@babel/runtime" "^7.19.4"
+
+i18next-http-backend@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/i18next-http-backend/-/i18next-http-backend-2.2.1.tgz#cdb7efbafa46ce8f237d9db443f62514664a3bdf"
+  integrity sha512-ZXIdn/8NJIBJ0X4hzXfc3STYxKrCKh1fYjji9HPyIpEJfvTvy8/ZlTl8RuTizzCPj2ZcWrfaecyOMKs6bQ7u5A==
+  dependencies:
+    cross-fetch "3.1.6"
+
+i18next@^23.2.11:
+  version "23.2.11"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.11.tgz#0c6f3a637fa87d3243e64b78ad285b7f77d41353"
+  integrity sha512-MA4FsxOjyCaOZtRDB4yuwjCvqYEioD4G4LlXOn7SO3rnQUlxTufyLsOqfL9MKakeLRBkefe8bqcs0D6Z/xFk1w==
+  dependencies:
+    "@babel/runtime" "^7.22.5"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
@@ -12761,6 +12803,13 @@ node-fetch@^2, node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
+node-fetch@^2.6.11:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.12.tgz#02eb8e22074018e3d5a83016649d04df0e348fba"
+  integrity sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-gyp@^9.0.0, node-gyp@^9.4.0:
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-9.4.0.tgz#2a7a91c7cba4eccfd95e949369f27c9ba704f369"
@@ -14300,6 +14349,14 @@ react-element-to-jsx-string@^15.0.0:
     "@base2/pretty-print-object" "1.0.1"
     is-plain-object "5.0.0"
     react-is "18.1.0"
+
+react-i18next@^13.0.2:
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-13.0.2.tgz#1708a9bdabc1fe1dd4a8534f4c3a80ab784b01e9"
+  integrity sha512-NEVxC32v0oR4egwYM0QM0WE93AiJG5r0NTXTL8mhQfAhsMfDS2fSO6jpluyfsfypP988KzUQrAXncspcJ7+GHA==
+  dependencies:
+    "@babel/runtime" "^7.22.5"
+    html-parse-stringify "^3.0.1"
 
 react-inspector@^6.0.0:
   version "6.0.2"
@@ -16450,6 +16507,11 @@ vm-browserify@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+void-elements@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
+  integrity sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==
 
 w3c-xmlserializer@^4.0.0:
   version "4.0.0"
