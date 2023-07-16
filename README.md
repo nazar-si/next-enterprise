@@ -37,6 +37,7 @@ With this template, you get all the awesomeness you need:
 - 💯 **Perfect Lighthouse score** - Because performance matters
 - 🚢 **[Semantic Release](https://github.com/semantic-release/semantic-release)** - for automatic changelog
 - 💻 **[T3 Env](https://env.t3.gg/)** - Manage your environment variables with ease
+- 🌍 **[I18n localization](https://react.i18next.com/)** - Localization support with i18n standards and localization files.
 
 ## Table of Contents
 
@@ -60,7 +61,7 @@ With this template, you get all the awesomeness you need:
   - [🤖 ChatGPT Code Review](#-chatgpt-code-review)
   - [💻 Environment Variables handling](#-environment-variables-handling)
   - [🤝 Contribution](#-contribution)
-  - [💌 Support](#support)
+  - [Support](#support)
   - [📜 License](#-license)
   - [Contributors](#contributors)
 
