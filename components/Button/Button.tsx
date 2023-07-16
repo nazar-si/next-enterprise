@@ -36,6 +36,8 @@ const button = cva(
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLAnchorElement>, VariantProps<typeof button> {
   underline?: boolean
   href: string
+  intent?: "primary" | "secondary"
+  size?: "sm" | "lg"
 }
 
 export function Button({ className, intent, size, underline, ...props }: ButtonProps) {
